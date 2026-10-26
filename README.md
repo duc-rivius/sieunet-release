@@ -4,7 +4,7 @@
 
 Cài bằng một cú bấm đúp, tiếng Việt từ đầu đến cuối.
 
-> Bản phát hành mới đang được đóng gói. Khi có bản mới, file tải về nằm ở mục [Releases](../../releases).
+> **Bản mới nhất: [Siêu Nét Player 1.4 beta](../../releases/tag/v1.4-beta)** - tải file `SieuNetPlayer-1.4-beta.zip`. Các bản khác ở mục [Releases](../../releases).
 > Gặp lỗi hoặc góp ý: báo ở mục [Issues](../../issues).
 
 ## Tính năng
@@ -26,7 +26,7 @@ Cài bằng một cú bấm đúp, tiếng Việt từ đầu đến cuối.
 
 ## Cài đặt
 
-1. Tải file zip bản mới nhất ở mục [Releases](../../releases) rồi giải nén.
+1. Tải file [`SieuNetPlayer-1.4-beta.zip`](../../releases/download/v1.4-beta/SieuNetPlayer-1.4-beta.zip) (bản 1.4 beta) rồi giải nén.
 2. Bấm đúp **CaiDat.bat** và làm theo hướng dẫn.
 3. Trong **NVIDIA App > System > Video > RTX Video Enhancement**: bật Super Resolution, Quality = Manual mức 4.
 4. Mở lối tắt **Siêu Nét Player**, kéo thả phim vào.
