@@ -4,14 +4,24 @@
 
 Cài bằng một cú bấm đúp, tiếng Việt từ đầu đến cuối.
 
-> **Bản mới nhất: [Siêu Nét Player 1.4 beta](../../releases/tag/v1.4-beta)** - tải file `SieuNetPlayer-1.4-beta.zip`. Các bản khác ở mục [Releases](../../releases).
+> **Bản mới nhất: [Siêu Nét Player 1.5 beta](../../releases/tag/v1.5-beta)** - tải file `SieuNetPlayer-1.5-beta.zip`. Các bản khác ở mục [Releases](../../releases).
 > Gặp lỗi hoặc góp ý: báo ở mục [Issues](../../issues).
+
+## Có gì mới trong 1.5 beta
+
+- **Phụ đề AI tự lưu vào phim**: dịch xong cả phim thì lưu phụ đề tiếng Việt thành tệp `<tên phim>.vi.srt` ngay cạnh phim. Lần sau mở phim là có phụ đề ngay, không phải chờ dịch lại; chép phim sang máy / thư mục khác thì mang theo tệp này. Không ghi đè tệp `.vi.srt` có sẵn.
+- **Tua tới đoạn chưa có phụ đề**: ngay chỗ phụ đề hiện "Đang dịch phụ đề… 45%" cho tới khi đoạn đó dịch xong, rồi phụ đề hiện ngay.
+- Sửa lỗi tua lùi về đoạn chưa dịch thì phụ đề có thể chậm tới 30 giây mới hiện.
+- **Màn hình chờ khi mở phim**: quảng cáo hiện 5 giây (trước đây có thể kéo dài thêm 15 giây). Phụ đề sẵn sàng là phim phát ngay; phụ đề còn đang dịch thì bấm Enter để xem luôn.
+- **Số liệu quảng cáo ẩn danh**: player gửi lượt hiện / bấm quảng cáo kèm một mã máy ngẫu nhiên và cấu hình máy (card đồ hoạ, CPU, RAM, Windows, màn hình) cho người phát hành. Không gửi gì về phim bạn xem. Tắt bằng dòng `stats=no` trong `portable_config\script-opts\ads.conf`.
+
+Cập nhật từ bản cũ: giải nén bản mới rồi chạy `CaiDat.bat`, cài đè được, không phải tải lại mô hình AI.
 
 ## Tính năng
 
 - **Upscale 4K bằng RTX Video Super Resolution** cho mọi video, giữ 10-bit, khử xen kẽ cho DVD / TV 1080i.
 - **RTX Video HDR**: biến phim SDR thành HDR bằng một phím (F4).
-- **Phụ đề AI tiếng Việt, offline**: tự nhận ngôn ngữ phim, dịch phụ đề có sẵn hoặc tự nghe lời thoại rồi dịch. Không gửi gì lên Internet.
+- **Phụ đề AI tiếng Việt, offline**: tự nhận ngôn ngữ phim, dịch phụ đề có sẵn hoặc tự nghe lời thoại rồi dịch. Không gửi âm thanh hay phụ đề lên Internet. Dịch xong thì tự lưu `.vi.srt` cạnh phim.
 - **Song ngữ** (F5), đổi chỗ / dời vị trí phụ đề, player nhớ lựa chọn cho các phim sau.
 - **Dễ dùng**: không cần quyền Administrator, menu chuột phải tiếng Việt, bảng trạng thái (F1).
 
@@ -26,7 +36,7 @@ Cài bằng một cú bấm đúp, tiếng Việt từ đầu đến cuối.
 
 ## Cài đặt
 
-1. Tải file [`SieuNetPlayer-1.4-beta.zip`](../../releases/download/v1.4-beta/SieuNetPlayer-1.4-beta.zip) (bản 1.4 beta) rồi giải nén.
+1. Tải file [`SieuNetPlayer-1.5-beta.zip`](../../releases/download/v1.5-beta/SieuNetPlayer-1.5-beta.zip) (bản 1.5 beta) rồi giải nén.
 2. Bấm đúp **CaiDat.bat** và làm theo hướng dẫn.
 3. Trong **NVIDIA App > System > Video > RTX Video Enhancement**: bật Super Resolution, Quality = Manual mức 4.
 4. Mở lối tắt **Siêu Nét Player**, kéo thả phim vào.
