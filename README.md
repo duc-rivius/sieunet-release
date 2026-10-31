@@ -4,8 +4,14 @@
 
 Cài bằng một cú bấm đúp, tiếng Việt từ đầu đến cuối.
 
-> **Bản mới nhất: [Siêu Nét Player 1.5.2 beta](../../releases/tag/v1.5.2-beta)** - tải file `SieuNetPlayer-1.5.2-beta.zip`. Các bản khác ở mục [Releases](../../releases).
+> **Bản mới nhất: [Siêu Nét Player 1.5.3 beta](../../releases/tag/v1.5.3-beta)** - tải bộ cài `SieuNetPlayer-Setup-1.5.3-beta.exe` (hoặc bản zip `SieuNetPlayer-1.5.3-beta.zip`). Các bản khác ở mục [Releases](../../releases).
 > Gặp lỗi hoặc góp ý: báo ở mục [Issues](../../issues).
+
+## Có gì mới trong 1.5.3 beta
+
+- **Bộ cài .exe**: bấm đúp rồi bấm Tiếp liên tục như mọi phần mềm. Có bước chọn thư mục / ổ đĩa để cài, chọn thứ tiếng dịch phụ đề, chọn có cài Phụ đề AI không. Gỡ trong Cài đặt > Ứng dụng của Windows.
+- **Phụ đề AI dịch sang 5 thứ tiếng**: tiếng Việt, Anh, Trung, Nhật, Hàn. Phim nói đúng thứ tiếng đã chọn thì không dịch.
+- **Quảng cáo khi mở phim không bao giờ quá 5 giây**: hết 5 giây là phim tự phát, phụ đề chưa xong thì hiện dần trong lúc xem.
 
 ## Có gì mới trong 1.5.2 beta
 
@@ -25,7 +31,7 @@ Cài bằng một cú bấm đúp, tiếng Việt từ đầu đến cuối.
 - **Màn hình chờ khi mở phim**: quảng cáo hiện 5 giây (trước đây có thể kéo dài thêm 15 giây). Phụ đề sẵn sàng là phim phát ngay; phụ đề còn đang dịch thì bấm Enter để xem luôn.
 - **Số liệu quảng cáo ẩn danh**: player gửi lượt hiện / bấm quảng cáo kèm một mã máy ngẫu nhiên và cấu hình máy (card đồ hoạ, CPU, RAM, Windows, màn hình) cho người phát hành. Không gửi gì về phim bạn xem. Tắt bằng dòng `stats=no` trong `portable_config\script-opts\ads.conf`.
 
-Cập nhật từ bản cũ: giải nén bản mới rồi chạy `CaiDat.bat`, cài đè được, không phải tải lại mô hình AI.
+Cập nhật từ bản cũ: chạy bộ cài .exe (hoặc giải nén bản zip mới rồi chạy `CaiDat.bat`), cài đè được, không phải tải lại mô hình AI.
 
 ## Tính năng
 
@@ -46,10 +52,10 @@ Cập nhật từ bản cũ: giải nén bản mới rồi chạy `CaiDat.bat`, 
 
 ## Cài đặt
 
-1. Tải file [`SieuNetPlayer-1.5.2-beta.zip`](../../releases/download/v1.5.2-beta/SieuNetPlayer-1.5.2-beta.zip) (bản 1.5.2 beta) rồi giải nén.
-2. Bấm đúp **CaiDat.bat** và làm theo hướng dẫn.
-3. Trong **NVIDIA App > System > Video > RTX Video Enhancement**: bật Super Resolution, Quality = Manual mức 4.
-4. Mở lối tắt **Siêu Nét Player**, kéo thả phim vào.
+1. Tải bộ cài [`SieuNetPlayer-Setup-1.5.3-beta.exe`](../../releases/download/v1.5.3-beta/SieuNetPlayer-Setup-1.5.3-beta.exe) (bản 1.5.3 beta), bấm đúp rồi bấm **Tiếp** liên tục: chọn thư mục / ổ đĩa, chọn thứ tiếng dịch phụ đề.
+   Hoặc tải bản zip [`SieuNetPlayer-1.5.3-beta.zip`](../../releases/download/v1.5.3-beta/SieuNetPlayer-1.5.3-beta.zip), giải nén rồi bấm đúp **CaiDat.bat**.
+2. Trong **NVIDIA App > System > Video > RTX Video Enhancement**: bật Super Resolution, Quality = Manual mức 4.
+3. Mở lối tắt **Siêu Nét Player**, kéo thả phim vào.
 
 ## Phím tắt
 
